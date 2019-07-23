@@ -1,0 +1,402 @@
+ .bg-ce1336{
+ 	background: #ce1336;
+ }
+.commonality {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*头部*/
+.head-box {
+	width: 100%;
+	background: #e3e4e5;
+}
+
+.head-list{
+	height: 31px;
+	line-height: 31px;
+}
+
+.head-left {
+	float: left;
+	padding: 0 2px;
+}
+.head-right{
+	float: right;
+}
+.head-left i {
+	font-size: 12px;
+}
+
+.head-right ul li {
+	float: left;
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.txt-red {
+	color: #ce1336;
+}
+
+.head-right ul li a i {
+	font-size: 12px;
+	padding:0px 5px;
+}
+
+.head-right ul li a {
+	padding: 0px 10px;
+}
+
+.head-list-fg::after {
+	content: "";
+	width: 1px;
+	top: 9px;
+	right: 0;
+	position: absolute;
+	background: #C0C0C0;
+	height: 12px;
+}
+.head-list-fg:last-child:after{
+	width: 0;
+	content:"";
+}
+.head-list-fg:hover >a{
+	color: #ce1336;
+}
+.seticon-dh{
+	display: inline-block;
+	transition: all .6s;
+	transform-style: preserve-3d;
+}
+/*头部下拉框*/
+
+.myjd {
+	width: 100%;
+	display: none;
+	position: absolute;
+	background: #FFFFFF;
+	border-top: 0px;
+	border: 1px solid #C0C0C0;
+	z-index: 9;
+	top: 0px;
+	left: 0px;
+	padding-top: 30px;
+}
+.myjd ul {
+	width: 100%;
+	float: left;
+}
+.myjd ul li{
+	width: 100%;
+}
+.myjd li {
+	line-height: 27px;
+	color: #999;
+}
+.myjd ul li:hover{
+	background: #e3e4e5;
+	color: #575757;
+}
+.myjd-top {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.myjd-top ul {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+.myid-bottom ul {
+	width: 100px;
+	overflow: hidden;
+	float: left;
+}
+.myjdhover{
+	margin: -1px;
+}
+.myjdhover a{
+	display: block;
+	z-index: 9999;
+	position: relative;
+}
+.myjdhover:hover .myjd {
+	display: block;
+}
+.head-list-fg:hover .seticon-dh{
+	transform: rotateZ(-180deg);
+}
+/*企业服务*/
+.enterprisesy{
+	margin: -1px;
+}
+.enterprise {
+	width: 100%;
+	display: none;
+	position: absolute;
+	background: #FFFFFF;
+	border-top: 0px;
+	border: 1px solid #C0C0C0;
+	z-index: 9;
+	top: 0px;
+	left: 0px;
+	padding-top: 30px;
+}
+.enterprisesy a{
+	display: block;
+	z-index: 9999;
+	position: relative;
+}
+.enterprise ul {
+	width: 100%;
+	float: left;
+}
+.enterprise ul li{
+	width: 100%;
+}
+.enterprisesy ul li:hover{
+	background: #e3e4e5;
+	color: #575757;
+}
+.enterprisesy:hover .enterprise {
+	display: block;
+}
+
+
+/*客户服务*/
+.clienfuw{
+	margin: -1px;
+}
+.client-box {
+	width: 100%;
+	display: none;
+	position: absolute;
+	background: #FFFFFF;
+	border-top: 0px;
+	border: 1px solid #C0C0C0;
+	z-index: 9;
+	top: 0px;
+	left: 0px;
+	padding-top: 30px;
+}
+.clienfuw a{
+	display: block;
+	z-index: 9999;
+	position: relative;
+}
+
+.clienfuw:hover .client-box {
+	display: block;
+}
+
+.client-box ul {
+	width: 88px;
+}
+.client-box ul li{
+	width: 100%;
+}
+.client-box ul li:hover{
+	background: #e3e4e5;
+	color: #575757;
+}
+.client-box h3 {
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+
+/*网站导航*/
+.navgetin{
+	margin: -1px;
+}
+.navigation {
+	width: 100%;
+	display: none;
+	position: absolute;
+	background: #FFFFFF;
+	border-top: 0px;
+	border: 1px solid #C0C0C0;
+	z-index: 9;
+	top: 0px;
+	left: 0px;
+	padding-top: 30px;
+}
+.navgetin a{
+	display: block;
+	z-index: 9999;
+	position: relative;
+}
+.navigation ul {
+	width: 88px;
+}
+.navigation ul li{
+	width: 100%;
+}
+.navigation ul li:hover{
+	background: #e3e4e5;
+	color: #ce1336;
+}
+.navgetin:hover .navigation {
+	display: block;
+}
+
+/*搜索框*/
+.seek-head {
+	height: 104px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.seek-left {
+	width: 213px;
+	height: 100%;
+	margin-left: 0px;
+	position: absolute;
+	left: 0;
+}
+
+.head-log {
+	display: block;
+	height: 54px;
+	width: 213px;
+	background: url(../images/logo_03.png) no-repeat;
+	overflow: hidden;
+	margin-top: 30px;
+	font-size: 0;
+}
+.lisjr-box{
+	width: 100%;
+	display: block;
+	padding: 5px 0px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.lisjr-box ul li{
+	float: left;
+	margin-right: 10px;
+}
+.seek-box{
+	overflow: hidden;
+	width: 450px;
+    height: 100%;
+    position: absolute;
+    left: 335px;
+    overflow: hidden;
+}
+.head-log a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-indent: -999px;
+}
+
+.head-location {
+	float: right;
+}
+
+.from {
+	width: 450px;
+	height: 36px;
+	float: left;
+	margin-top: 26px;
+}
+
+#seek-inpt {
+	float: left;
+	border: 1px solid #ce1336;
+	width: 370px;
+	height: 36px;
+	float: left;
+	padding: 0 10px;
+	color: #000000;
+	outline: none;
+}
+
+#seek-btn {
+	float: left;
+	height: 100%;
+	width: 80px;
+	height: 36px;
+	background: #ce1336;
+	text-align: center;
+	color: #FFFFFF;
+	border: 0px;
+	font-size: 16px;
+}
+
+.seek-btnbox {
+	margin-top: 26px;
+	float: right;
+	font-size: 14px;
+}
+.seek-btnbox i{
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+
+.
+.
+.dimension {
+	margin-left: 30px;
+	padding: 0 18px;
+}
+.shaoma:hover .wxorzfb{
+	display: block;
+}
+.shaoma:hover{
+	background: #FFFFFF;
+	border-bottom: none;
+	border: 1px solid #C0C0C0;
+}
+.shaoma:hover:after{
+	width: 100%;
+    height: 3px;
+    left: 0px;
+    top: 33px;
+    z-index: 9999;
+    position: absolute;
+    background: #FFFFFF;
+    content: "";
+}
+/*扫码登陆*/
+.wxorzfb{
+	display: none;
+	width: 220px;
+	height: 130px;
+	background: #FFFFFF;
+	position: absolute;
+	z-index: 1;
+	border: 1px solid #C0C0C0;
+	top: 34px;
+	right: -1px;
+}
+.wxorzfb-img{
+	padding: 10px 0px;
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.wxorzfb-img img{
+	display: block;
+	margin: 0 auto;
+}
+.shaoma{
+	position: relative;
+	z-index: 2;
+}
+.shaoma i{
+	font-size: 27px;
+	float: left;
+}
+.shaoma span{
+	float: left;
+}
+/*导航栏*/
+
+/*定位器*/

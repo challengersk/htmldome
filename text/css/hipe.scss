@@ -1,0 +1,317 @@
+.comwidth{
+    width: 1200px;
+    margin: 0 auto;
+}
+.action{
+        a{
+             background: #CE1336;
+             color: #fff;
+            }  
+        }
+.main{
+    background: rgb(246, 246, 246);
+    padding-bottom: 20px;
+    .comwidth{
+        .hipe-head-img{
+            width: 100%;
+            height: 250px;
+            margin: 0 auto;
+            img{
+                width: 1200px;
+            }
+        }
+        .self-help-box{
+            .seek-help-head{
+                width: 100%;
+                height: 106px;
+                h2{
+                    font-size: 30px;
+                    color: #666666;
+                    line-height: 106px;
+                    text-align: center;
+                }
+            }
+            .seif-help-conten{
+                width: 100%;
+                height: 590px;
+                ul{
+                    li{
+                        width: 289px;
+                        height: 277px;
+                        float: left;
+                        background: #FFFFFF;
+                        margin: 0px 14px 18px 0;
+                        a{
+                            display: block;
+                            img{
+                                width: 66px;
+                                height: 66px;
+                                margin: 0 auto;
+                                margin-top: 76px;
+                                display: block;
+                            }
+                            h2{
+                                text-align: center;
+                                font-size: 18px;
+                                color: #000000;
+                                line-height: 46px;
+                            }
+                            p{
+                                text-align: center;
+                            }
+                        }
+                    }
+                    li:hover{
+                        box-shadow: 1px 5px 5px #CCCCCC;
+                    }
+                    li:nth-child(4),li:nth-child(8){
+                        margin-right:0 ;
+                        
+                    }
+                }
+            }
+//          联系客服
+            .lxke-box{
+                height: 280px;
+                padding-bottom: 30px;
+                ul{
+                    height: 100%;
+                    li{
+                        width: 390px;
+                        float: left;
+                        height: 100%;
+                        background: #fff;
+                        margin-left: 15px;
+                        transition: all 0.5s; 
+                        a{
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                text-align: center;
+                                padding-top: 100px;
+                                .lxke-img-box{
+                                    height: 48px;
+                                    width: 100%;
+                                    span{
+                                        font-size: 21px;
+                                        line-height: 48px;
+                                        display: inline-block;
+                                        margin-left: 10px;
+                                        transform: translateY(-10px);
+                                    }
+                                    i{
+                                        font-size: 42px;
+                                    }
+                                    .col-8ed4eb{
+                                        color: #8ed4eb ;
+                                    }
+                                    .col-94d252{
+                                        color: #94d252 ;
+                                    }
+                                    .col-249be6{
+                                        color: #249be6;
+                                    }
+                            }
+                        }
+                    }
+                    li:first-child{
+                        margin-left: 0;
+                    }
+                    li:hover{
+                        transform: translatey(-20px);
+                        box-shadow: 5px 5px 5px #CCCCCC;
+                    }
+                }
+            }
+        }
+        .problem-box{
+            .problem-box-head{
+                h2{
+                        font-size: 30px;
+                        color: #666666;
+                        line-height: 106px;
+                        text-align: center;
+                }
+                
+            }
+            .problem-box-list{
+                margin-top: 10px;
+                .problem-box{
+                    width: 100%;
+                    .problem-nav{
+                        ul{
+                            width: 100%;
+                            background: #FFFFFF;
+                            overflow: hidden;
+                            li{
+                                width: 14.2%;
+                                height: 67px;
+                                background: #FFFFFF;
+                                float: left;
+                                text-align: center;
+                                line-height: 67px;
+                                font-size: 18px;
+                                a{
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                a:hover{
+                                    background: #CE1336;
+                                    color: #fff;
+                                }
+                                
+                            }
+                        }
+                    }
+                    .problem-navlist{
+                        background: #FFFFFF;
+                        height: 190px;
+                        overflow: hidden;
+                        padding: 30px 0 16px 0;
+                        .maxwid-list{
+                            .prolem-box-conten{
+                                float: left;
+                                overflow: hidden;
+                                width: 100%;
+                            }
+                        }
+                        
+                        .prbl-list-box{
+                            width: 50%;
+                            float: left;
+                            dl{
+                                height: 120px;
+                                dd{
+                                    line-height: 40px;
+                                    font-size: 16px;
+                                    margin-left: 6%;
+                                }
+                                dd:hover{
+                                    color: #CE1336;
+                                    a{
+                                        color: #CE1336;
+                                    }
+                                }
+                            }
+                        }
+                        .gd-problem{
+                        height: 24px;
+                        width: 100%;
+                        text-align: center;
+                        line-height: 24px;
+                        background: #FFFFFF;
+                        font-size: 16px;
+                            a:hover{
+                                color: #CE1336;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+//      帮助列表页
+        .hipelist-box{
+            width: 100%;
+            .hipelist-box-left{
+                width: 230px;
+                float: left;
+                margin-right: 20px;
+                background: #FFFFFF;
+                padding: 38px 0 0 48px;
+                h2{
+                    line-height: 46px;
+                    font-size: 16px;
+                    color: #212121;
+                    font-weight: 600;
+                }
+                ul{
+                    li{
+                        line-height: 34px;
+                        font-size: 14px;
+                        a{
+                            color: #757575; 
+                        }
+                    }
+                    .acton-list{
+                        a{color: #CE1336;}
+                    }
+                    li:hover{
+                        a{
+                            color: #CE1336;
+                        }
+                    }
+                }
+                .lxkf-box{
+                    position: relative;
+                    height: 45px;
+                    line-height: 34px;
+                    margin-top: 17px;
+                    font-size: 14px;
+                }
+                .lxkf-box:hover{
+                    a{
+                        color: #CE1336;
+                    }
+                }
+                .lxkf-box:after{
+                    width: 58px;
+                    height: 1px;
+                    background: #dbdbdb;
+                    position: absolute;
+                    content: "";
+                    top: -7px;
+                    left: 0;
+                }
+            }
+            .hiplist-box-right{
+                width: 950px;
+                background: #FFFFFF;
+                float: left;
+                ul{
+                    width: 100%;
+                    li{
+                        height: 70px;
+                        font-size: 16px;
+                        border-bottom: 1px solid #efeded;
+                        a{
+                            display: block;
+                            padding:0 30px;
+                            line-height: 70px;
+                        }
+                    }
+                    li:last-child{
+                        border-bottom: 0;
+                    }
+                    li:hover{
+                        a{
+                            color: #CE1336;
+                        }
+                    }
+                }
+//              帮助文章页
+                .hipe-text{
+                    h3{
+                        height: 70px;
+                        font-size: 18px;
+                        line-height: 70px;
+                        padding-left: 48px;
+                    }
+                    .hipetext-box{
+                        padding: 32px 48px;
+                        p{
+                        font-size: 16px;
+                        color: #757575;
+                           a{
+                                color: #007AFF;
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+        
+    }
+}

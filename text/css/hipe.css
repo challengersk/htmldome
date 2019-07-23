@@ -1,0 +1,222 @@
+.comwidth {
+  width: 1200px;
+  margin: 0 auto; }
+
+.action a {
+  background: #CE1336;
+  color: #fff; }
+
+.main {
+  background: #f6f6f6;
+  padding-bottom: 20px; }
+  .main .comwidth .hipe-head-img {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto; }
+    .main .comwidth .hipe-head-img img {
+      width: 1200px; }
+  .main .comwidth .self-help-box .seek-help-head {
+    width: 100%;
+    height: 106px; }
+    .main .comwidth .self-help-box .seek-help-head h2 {
+      font-size: 30px;
+      color: #666666;
+      line-height: 106px;
+      text-align: center; }
+  .main .comwidth .self-help-box .seif-help-conten {
+    width: 100%;
+    height: 590px; }
+    .main .comwidth .self-help-box .seif-help-conten ul li {
+      width: 289px;
+      height: 277px;
+      float: left;
+      background: #FFFFFF;
+      margin: 0px 14px 18px 0; }
+      .main .comwidth .self-help-box .seif-help-conten ul li a {
+        display: block; }
+        .main .comwidth .self-help-box .seif-help-conten ul li a img {
+          width: 66px;
+          height: 66px;
+          margin: 0 auto;
+          margin-top: 76px;
+          display: block; }
+        .main .comwidth .self-help-box .seif-help-conten ul li a h2 {
+          text-align: center;
+          font-size: 18px;
+          color: #000000;
+          line-height: 46px; }
+        .main .comwidth .self-help-box .seif-help-conten ul li a p {
+          text-align: center; }
+    .main .comwidth .self-help-box .seif-help-conten ul li:hover {
+      box-shadow: 1px 5px 5px #CCCCCC; }
+    .main .comwidth .self-help-box .seif-help-conten ul li:nth-child(4), .main .comwidth .self-help-box .seif-help-conten ul li:nth-child(8) {
+      margin-right: 0; }
+  .main .comwidth .self-help-box .lxke-box {
+    height: 280px;
+    padding-bottom: 30px; }
+    .main .comwidth .self-help-box .lxke-box ul {
+      height: 100%; }
+      .main .comwidth .self-help-box .lxke-box ul li {
+        width: 390px;
+        float: left;
+        height: 100%;
+        background: #fff;
+        margin-left: 15px;
+        transition: all 0.5s; }
+        .main .comwidth .self-help-box .lxke-box ul li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          padding-top: 100px; }
+          .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box {
+            height: 48px;
+            width: 100%; }
+            .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box span {
+              font-size: 21px;
+              line-height: 48px;
+              display: inline-block;
+              margin-left: 10px;
+              transform: translateY(-10px); }
+            .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box i {
+              font-size: 42px; }
+            .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box .col-8ed4eb {
+              color: #8ed4eb; }
+            .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box .col-94d252 {
+              color: #94d252; }
+            .main .comwidth .self-help-box .lxke-box ul li a .lxke-img-box .col-249be6 {
+              color: #249be6; }
+      .main .comwidth .self-help-box .lxke-box ul li:first-child {
+        margin-left: 0; }
+      .main .comwidth .self-help-box .lxke-box ul li:hover {
+        transform: translatey(-20px);
+        box-shadow: 5px 5px 5px #CCCCCC; }
+  .main .comwidth .problem-box .problem-box-head h2 {
+    font-size: 30px;
+    color: #666666;
+    line-height: 106px;
+    text-align: center; }
+  .main .comwidth .problem-box .problem-box-list {
+    margin-top: 10px; }
+    .main .comwidth .problem-box .problem-box-list .problem-box {
+      width: 100%; }
+      .main .comwidth .problem-box .problem-box-list .problem-box .problem-nav ul {
+        width: 100%;
+        background: #FFFFFF;
+        overflow: hidden; }
+        .main .comwidth .problem-box .problem-box-list .problem-box .problem-nav ul li {
+          width: 14.2%;
+          height: 67px;
+          background: #FFFFFF;
+          float: left;
+          text-align: center;
+          line-height: 67px;
+          font-size: 18px; }
+          .main .comwidth .problem-box .problem-box-list .problem-box .problem-nav ul li a {
+            display: block;
+            width: 100%;
+            height: 100%; }
+          .main .comwidth .problem-box .problem-box-list .problem-box .problem-nav ul li a:hover {
+            background: #CE1336;
+            color: #fff; }
+      .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist {
+        background: #FFFFFF;
+        height: 190px;
+        overflow: hidden;
+        padding: 30px 0 16px 0; }
+        .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .maxwid-list .prolem-box-conten {
+          float: left;
+          overflow: hidden;
+          width: 100%; }
+        .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .prbl-list-box {
+          width: 50%;
+          float: left; }
+          .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .prbl-list-box dl {
+            height: 120px; }
+            .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .prbl-list-box dl dd {
+              line-height: 40px;
+              font-size: 16px;
+              margin-left: 6%; }
+            .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .prbl-list-box dl dd:hover {
+              color: #CE1336; }
+              .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .prbl-list-box dl dd:hover a {
+                color: #CE1336; }
+        .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .gd-problem {
+          height: 24px;
+          width: 100%;
+          text-align: center;
+          line-height: 24px;
+          background: #FFFFFF;
+          font-size: 16px; }
+          .main .comwidth .problem-box .problem-box-list .problem-box .problem-navlist .gd-problem a:hover {
+            color: #CE1336; }
+  .main .comwidth .hipelist-box {
+    width: 100%; }
+    .main .comwidth .hipelist-box .hipelist-box-left {
+      width: 230px;
+      float: left;
+      margin-right: 20px;
+      background: #FFFFFF;
+      padding: 38px 0 0 48px; }
+      .main .comwidth .hipelist-box .hipelist-box-left h2 {
+        line-height: 46px;
+        font-size: 16px;
+        color: #212121;
+        font-weight: 600; }
+      .main .comwidth .hipelist-box .hipelist-box-left ul li {
+        line-height: 34px;
+        font-size: 14px; }
+        .main .comwidth .hipelist-box .hipelist-box-left ul li a {
+          color: #757575; }
+      .main .comwidth .hipelist-box .hipelist-box-left ul .acton-list a {
+        color: #CE1336; }
+      .main .comwidth .hipelist-box .hipelist-box-left ul li:hover a {
+        color: #CE1336; }
+      .main .comwidth .hipelist-box .hipelist-box-left .lxkf-box {
+        position: relative;
+        height: 45px;
+        line-height: 34px;
+        margin-top: 17px;
+        font-size: 14px; }
+      .main .comwidth .hipelist-box .hipelist-box-left .lxkf-box:hover a {
+        color: #CE1336; }
+      .main .comwidth .hipelist-box .hipelist-box-left .lxkf-box:after {
+        width: 58px;
+        height: 1px;
+        background: #dbdbdb;
+        position: absolute;
+        content: "";
+        top: -7px;
+        left: 0; }
+    .main .comwidth .hipelist-box .hiplist-box-right {
+      width: 950px;
+      background: #FFFFFF;
+      float: left; }
+      .main .comwidth .hipelist-box .hiplist-box-right ul {
+        width: 100%; }
+        .main .comwidth .hipelist-box .hiplist-box-right ul li {
+          height: 70px;
+          font-size: 16px;
+          border-bottom: 1px solid #efeded; }
+          .main .comwidth .hipelist-box .hiplist-box-right ul li a {
+            display: block;
+            padding: 0 30px;
+            line-height: 70px; }
+        .main .comwidth .hipelist-box .hiplist-box-right ul li:last-child {
+          border-bottom: 0; }
+        .main .comwidth .hipelist-box .hiplist-box-right ul li:hover a {
+          color: #CE1336; }
+      .main .comwidth .hipelist-box .hiplist-box-right .hipe-text h3 {
+        height: 70px;
+        font-size: 18px;
+        line-height: 70px;
+        padding-left: 48px; }
+      .main .comwidth .hipelist-box .hiplist-box-right .hipe-text .hipetext-box {
+        padding: 32px 48px; }
+        .main .comwidth .hipelist-box .hiplist-box-right .hipe-text .hipetext-box p {
+          font-size: 16px;
+          color: #757575; }
+          .main .comwidth .hipelist-box .hiplist-box-right .hipe-text .hipetext-box p a {
+            color: #007AFF; }
+
+/*# sourceMappingURL=hipe.css.map */

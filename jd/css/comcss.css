@@ -1,0 +1,11 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,button{padding:0;margin:0;font-size:100%;user-select:none; }
+ul,li,dl,dt,ol,u,dd { list-style:none; padding:0px; margin:0px; }
+address,caption,cite,code,dfn,em,strong,th,var,i,s,a{ font-style:normal; text-decoration:none; }   
+label input{vertical-align:middle}
+a{text-decoration:none !important; color: #575757;}
+a:hover{text-decoration:none; color: ##ce1336 !important;}
+a.hidefocus{outline:none}
+body{font:12px/1.5 "微软雅黑", Arial, Helvetica, sans-serif;color:black;background:#fff;}
+img{border:0;vertical-align: middle;}
+.clear{clear:both;line-height:0;font-size:0;height:0}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:"."}

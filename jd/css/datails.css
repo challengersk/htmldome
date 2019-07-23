@@ -1,0 +1,157 @@
+.content-text {
+  width: 100%; }
+  .content-text .goods-con {
+    width: 780px;
+    padding-top: 30px; }
+    .content-text .goods-con h2 {
+      font-size: 24px;
+      color: #000000;
+      line-height: 36px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .content-text .goods-con .article-info {
+      height: 30px;
+      font-size: 12px;
+      color: #666;
+      background: #f6f6f6;
+      line-height: 30px;
+      margin: 0px -40px;
+      padding: 0px 40px; }
+      .content-text .goods-con .article-info .split {
+        margin: 0 10px;
+        color: #DDDDDD; }
+    .content-text .goods-con .sns-share {
+      height: 28px;
+      width: 100%;
+      line-height: 28px; }
+      .content-text .goods-con .sns-share .c-share-v3 {
+        float: right; }
+    .content-text .goods-con .yq-feedback-description {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 30px 0; }
+    .content-text .goods-con .detail-tags {
+      border-top: 1px solid #efefef;
+      color: #888;
+      height: 39px;
+      line-height: 39px; }
+      .content-text .goods-con .detail-tags .detail-tags-left {
+        float: left; }
+      .content-text .goods-con .detail-tags .detail-tags-right {
+        float: right; }
+    .content-text .goods-con .detail-likes {
+      margin: 30px auto; }
+      .content-text .goods-con .detail-likes h3 {
+        font-size: 16px;
+        font-weight: 600; }
+      .content-text .goods-con .detail-likes .goods-tuijian {
+        width: 100%; }
+        .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper {
+          margin-top: 20px; }
+          .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li {
+            float: left;
+            padding: 15px 12px 0px;
+            border: 1px solid #E7E7E7;
+            width: 190px;
+            overflow: hidden;
+            position: relative;
+            margin-right: 6px; }
+            .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .goods-img-box {
+              width: 164px;
+              height: 125px;
+              margin: 0 auto;
+              overflow: hidden; }
+              .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .goods-img-box img {
+                width: 164px; }
+            .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .goods-title-box {
+              width: 164px;
+              height: 30px;
+              position: absolute;
+              top: 110px;
+              color: #FFFFFF;
+              text-align: center;
+              margin: 0 auto;
+              line-height: 30px;
+              background: #000;
+              opacity: .6; }
+            .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .onetitle {
+              display: inline-block;
+              height: 30px;
+              width: 100%;
+              line-height: 30px;
+              text-align: center;
+              overflow: hidden;
+              color: #888888; }
+            .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .twotitle {
+              display: inline-block;
+              height: 60px;
+              line-height: 20px;
+              overflow: hidden;
+              padding: 0 8px;
+              color: #888; }
+            .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li .goods-link {
+              display: inline-block;
+              width: 100%;
+              height: 18px;
+              line-height: 18px;
+              margin-top: 5px;
+              color: #ce1336;
+              text-align: center; }
+          .content-text .goods-con .detail-likes .goods-tuijian .goods-tuijian-swiper ul li:last-child {
+            margin-right: 0; }
+    .content-text .goods-con .mod-comment {
+      border-top: 1px solid #ececec;
+      background: #fafafa; }
+      .content-text .goods-con .mod-comment .mod-not-login {
+        width: 100%;
+        height: 76px;
+        padding: 13px 29px 7px 29px; }
+        .content-text .goods-con .mod-comment .mod-not-login .default-photo {
+          width: 50px;
+          height: 50px;
+          overflow: hidden;
+          float: left; }
+          .content-text .goods-con .mod-comment .mod-not-login .default-photo img {
+            width: 50px;
+            height: 50px; }
+        .content-text .goods-con .mod-comment .mod-not-login .login-lik {
+          float: left;
+          line-height: 47px;
+          margin-left: 20px;
+          font-size: 14px; }
+          .content-text .goods-con .mod-comment .mod-not-login .login-lik a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #258; }
+      .content-text .goods-con .mod-comment .postcomments {
+        width: 100%; }
+        .content-text .goods-con .mod-comment .postcomments ul li {
+          padding: 13px 29px 25px 29px;
+          border-bottom: 1px solid #ECECEC;
+          background: #FFFFFF; }
+          .content-text .goods-con .mod-comment .postcomments ul li .id-log {
+            float: left;
+            width: 50px;
+            height: 50px; }
+          .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen {
+            margin-left: 20px;
+            float: left; }
+            .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen .postcommtsd-centen-head {
+              width: 650px; }
+              .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen .postcommtsd-centen-head .useridname {
+                float: left; }
+                .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen .postcommtsd-centen-head .useridname a {
+                  font-size: 14px;
+                  color: #225588;
+                  font-weight: 700;
+                  display: inline-block;
+                  margin-right: 5px; }
+              .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen .postcommtsd-centen-head .userno-sum {
+                float: right;
+                font-size: 14px;
+                font-weight: 700; }
+            .content-text .goods-con .mod-comment .postcomments ul li .postcommtsd-centen .postcommtsd-conten p {
+              line-height: 30px;
+              font-size: 14px; }
+
+/*# sourceMappingURL=datails.css.map */
